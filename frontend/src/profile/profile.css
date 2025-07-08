@@ -1,0 +1,84 @@
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        .App > h1 {
+         font: 700 18px Arial, sans-serif;
+         text-align: center;
+         color:#333;
+        }
+
+
+        /* Style cho navigation bar */
+        
+        .navbar-default {
+            display: flex; /* Sử dụng flexbox */
+            justify-content: space-around; /* Các item cách đều nhau */
+            align-items: center; /* Căn giữa theo chiều dọc */
+            padding: 1rem 2rem; /* Thêm padding cho đẹp */
+            background-color: #f8f8f8; /* Màu nền */
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem; /* Khoảng cách giữa các mục */
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+        
+        .nav-links a:hover {
+            color: #007bff; /* Màu khi hover */
+        }
+ /* bố cục cv theo hương nằm ngang */
+ .cv-container {
+  display: flex; /* Bố cục ngang */
+  max-width: 1000px; /* Giới hạn độ rộng */
+  margin: 0 auto; /* Căn giữa */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+}
+
+.left-column {
+  flex: 3; /* Chiếm 30% */
+  background: #2c3e50; /* Màu tối */
+  color: white;
+  padding: 2rem;
+}
+
+.right-column {
+  flex: 7; /* Chiếm 70% */
+  padding: 2rem;
+  background: white;
+}
+
+.avatar-container {
+  display: flex;
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  margin: 20px 0; /* Khoảng cách với các phần khác */
+}
+
+.avatar {
+  width: 150px; /* Kích thước ảnh */
+  height: 150px; /* Chiều cao bằng chiều rộng để tạo hình tròn */
+  border-radius: 50%; /* Bo tròn 100% */
+  object-fit: cover; /* Đảm bảo ảnh không bị méo */
+  border: 3px solid #2c3e50
+}
+
+h1 , h2 , h3 {
+  font: 700 18px Arial, sans-serif;
+  color:lightsalmon;
+}
+
+
+
